@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0xa1a" id="Basic Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x50</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A well made bow out of sticks and strings.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/poor_quality_bow</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>30</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   <Object type="0xa75" id="Reinforced Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x51</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>An iron-reinforced bow.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/poor_quality_bow</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>35</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+	   <FameBonus>1</FameBonus>	  
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   <Object type="0xa1b" id="Iron Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x52</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>2</Tier> <Common/>
+      <Description>A heavy bow made from the thickest irons on earth.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/crossbow</Sound>
+      <Projectile>
+         <ObjectId>Black Arrow</ObjectId>
+         <Speed>200</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>35</MaxDamage>
+         <LifetimeMS>375</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+	   <FameBonus>1</FameBonus>	  
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   <Object type="0xa76" id="Crossbow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x53</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>3</Tier> <Uncommon/>
+      <Description>A bow with great accuracy, can hit its target from miles away.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/poor_quality_bow</Sound>
+      <Projectile>
+         <ObjectId>Black Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>45</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+	   <FameBonus>1</FameBonus>	  
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   <Object type="0xa77" id="Double Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x54</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>4</Tier> <Uncommon/>
+      <Description>This bow can deal heavy blows to the target.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/poor_quality_bow</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>50</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+      <NumProjectiles>2</NumProjectiles>	  
+	  <FameBonus>2</FameBonus>	  
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   <Object type="0xa1c" id="Heavy Reinforced Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x55</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>5</Tier> <Uncommon/>
+      <Description>A reinforced bow, but more heavy than its usual.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/fire_bow</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>45</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+	   <FameBonus>2</FameBonus>	  
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   <Object type="0xa1d" id="Enchanted Sky Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x56</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>6</Tier> <Rare/>
+      <Description>Up, up, and away the temple unholds the bow of the sky.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/double_bow</Sound>
+      <Projectile>
+         <ObjectId>Blue Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>35</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+	   <FameBonus>2</FameBonus>	  
+      <NumProjectiles>3</NumProjectiles>	   
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   <Object type="0xa3a" id="Magical Earth Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x57</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>7</Tier> <Rare/>
+      <Description>A powerful bow with a mother natures essence.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/heavy_crossbow</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>75</MaxDamage>
+         <LifetimeMS>500</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+	   <FameBonus>3</FameBonus>	  
+      <NumProjectiles>3</NumProjectiles>	   
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   <Object type="0xa1e" id="Bow of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x58</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>8</Tier> <Epic/>
+      <Description>Deep down in the void unholds the bow of the void.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/golden_bow</Sound>
+      <Projectile>
+         <ObjectId>Mask Powershot</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>45</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <NumProjectiles>3</NumProjectiles>
+      <ArcGap>8</ArcGap>
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+</Objects>

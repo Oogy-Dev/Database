@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+    <Object type="0xa04" id="Wand of Fire">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x40</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A wand that casts fire balls.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/fire_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Orange Blast</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>35</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa6f" id="Wand of Bursting Flames">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x41</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A wand that cast fire balls twice as fast.</Description>
+      <RateOfFire>1.15</RateOfFire>
+      <Sound>weapon/fire_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Orange Blast</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>35</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+	  <FameBonus>1</FameBonus>	  	  
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa70" id="Wand of Power">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x42</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>2</Tier> <Common/>
+      <Description>A wand that cast power bolts.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Blue Blast</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>35</MinDamage>
+         <MaxDamage>50</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+	  <FameBonus>1</FameBonus>	  	  
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa05" id="Wand of Heavy Power">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x43</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>3</Tier> <Uncommon/>
+      <Description>A wand that casts strong power bolts.</Description>
+      <RateOfFire>0.85</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Teal Blast</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>75</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+	  <FameBonus>1</FameBonus>	  
+      <OldSound>magicShoot</OldSound>
+   </Object>
+
+   <Object type="0xa06" id="Wand of Dark Energy">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x44</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>4</Tier> <Uncommon/>
+      <Description>A wand that casts dark energy.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_dark_magic</Sound>
+      <Projectile>
+         <ObjectId>Small Red Blast</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>25</MaxDamage>
+         <ArmorPiercing/>
+      </Projectile>
+      <BagType>2</BagType>
+	  <FameBonus>2</FameBonus>	  
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa3d" id="Wand of Darker Energy">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x45</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>5</Tier> <Uncommon/>
+      <Description>A wand that casts darker energy.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_dark_magic</Sound>
+      <Projectile>
+         <ObjectId>Small Pink Blast</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>25</MaxDamage>
+         <ArmorPiercing/>
+		 <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+	  <FameBonus>2</FameBonus>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xae0" id="Wand of the Enchanted Skys">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x46</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>6</Tier> <Rare/>
+      <Description>A wand that can cast clouds.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_dark_magic</Sound>
+      <Projectile>
+         <ObjectId>Small Cyan Blast</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>55</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+	  <FameBonus>3</FameBonus>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+      <Object type="0x4521" id="Wand of the Earths Demise">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x47</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>7</Tier> <Rare/>
+      <Description>A deadly wand that can destruct its enemy nearby.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_dark_magic</Sound>
+      <Projectile>
+         <ObjectId>Small Green Blast</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>65</MinDamage>
+         <MaxDamage>110</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+	  <FameBonus>3</FameBonus>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa07" id="Wand of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x48</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>8</Tier> <Epic/>
+      <Description>The wand created from the deep void, no one knows whats in the void.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>Small Purple Blast</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>45</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>5</ArcGap>	  
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+</Objects>

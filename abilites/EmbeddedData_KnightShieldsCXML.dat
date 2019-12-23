@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+     <Object type="0xa08" id="Wooden Shield">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x70</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A shield made of sturdy plain wood.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Silver Shield</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>65</MinDamage>
+         <MaxDamage>115</MaxDamage>
+         <LifetimeMS>255</LifetimeMS>
+         <Size>145</Size>
+         <ConditionEffect duration="2.75">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="3">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>80</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>1</NumProjectiles>
+   </Object>
+   <Object type="0xa09" id="Reinforced Wooden Shield">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x71</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A wooden shield reinforced with strong irons.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Silver Shield</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>125</MinDamage>
+         <MaxDamage>225</MaxDamage>
+         <LifetimeMS>200</LifetimeMS>
+         <Size>145</Size>
+         <ConditionEffect duration="3">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+      <MpCost>85</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>2</NumProjectiles>
+   </Object>
+   <Object type="0xa0a" id="Steel Shield">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x72</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A shield made of high quality steel.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Silver Shield</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>225</MinDamage>
+         <MaxDamage>275</MaxDamage>
+         <LifetimeMS>200</LifetimeMS>
+         <Size>140</Size>
+         <ConditionEffect duration="3">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <MpCost>90</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>3</NumProjectiles>
+   </Object>
+   <Object type="0xacf" id="Enchanted Sky Shield">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x73</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A shield that protects the good from the evil.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Silver Shield</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>280</MinDamage>
+         <MaxDamage>340</MaxDamage>
+         <LifetimeMS>200</LifetimeMS>
+         <Size>140</Size>
+         <ConditionEffect duration="3">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <Cooldown>2</Cooldown>	  	  
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>95</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>3</NumProjectiles>
+   </Object>
+   <Object type="0xa0b" id="Magical Earth Shield">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x74</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>An ornate but strong shield plated with the earths crust.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Silver Shield</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>300</MinDamage>
+         <MaxDamage>400</MaxDamage>
+         <LifetimeMS>200</LifetimeMS>
+         <Size>140</Size>
+         <ConditionEffect duration="3">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="7">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <Cooldown>2</Cooldown>	  	  
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>100</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>4</NumProjectiles>
+   </Object>
+      <Object type="0xa0c" id="Shield of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x75</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A powerful shield only crafted from the voids essentials, if overused then a gap between worlds will colilide.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Silver Shield</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>400</MinDamage>
+         <MaxDamage>500</MaxDamage>
+         <LifetimeMS>200</LifetimeMS>
+         <Size>140</Size>
+         <ConditionEffect duration="3">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="8">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <Cooldown>2</Cooldown>	  
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>100</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>4</NumProjectiles>
+   </Object>
+</Objects>

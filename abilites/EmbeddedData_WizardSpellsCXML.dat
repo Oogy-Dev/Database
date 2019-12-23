@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+ <Object type="0xa2e" id="Fire Spray Scroll">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x40</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A spell that shoots fire in all directions.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Small Orange Blast</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>40</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>30</MpCost>
+      <Activate>BulletNova</Activate>
+   </Object>
+   <Object type="0xad4" id="Flame Burst Scroll">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x41</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A dangerous spell that summons green fire from the astral plane.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Small Green Blast</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  
+      <MpCost>40</MpCost>
+      <Activate>BulletNova</Activate>
+   </Object>
+   <Object type="0xa2f" id="Fire Nova Scroll">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x42</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A deadly spell created by goblin sorcerers to subdue their orcish enemies.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <Projectile>
+         <ObjectId>Small Blue Blast</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>50</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <MpCost>50</MpCost>
+      <Activate>BulletNova</Activate>
+   </Object>
+   <Object type="0xad5" id="Enchanted Sky Scroll">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x43</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A formidable spell from the heavens, blessed from the gods.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <Projectile>
+         <ObjectId>Small Cyan Blast</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>65</MinDamage>
+         <MaxDamage>110</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>60</MpCost>
+      <Activate>BulletNova</Activate>
+   </Object>
+   <Object type="0xad6" id="Magical Earth Scroll">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x44</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>An immensely powerful spell created by the earths core.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <Projectile>
+         <ObjectId>Small Green Blast</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>80</MinDamage>
+         <MaxDamage>130</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>70</MpCost>
+      <Activate>BulletNova</Activate>
+   </Object>
+   <Object type="0xa30" id="Scroll of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x45</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>An unknown spell of the void, waiting viciously for its prey to be hunted.</Description>
+      <Sound>spell/magic_nova</Sound>
+      <Projectile>
+         <ObjectId>Small Purple Blast</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>90</MinDamage>
+         <MaxDamage>155</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate>BulletNova</Activate>
+   </Object>
+</Objects>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+  <Object type="0x6430" id="Basic Axe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj7</File>
+         <Index>0x10</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A basic axe for a lumberjack to use for cutting down trees.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/blunt_sword</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>	
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>
+	  </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+ <Object type="0x6431" id="Steel Axe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x91</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A steel axe made by a fine blacksmith.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>	 
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>		 
+      </Projectile>
+      <BagType>1</BagType>
+      <FameBonus>1</FameBonus>	  	  	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0x6532" id="Broad Axe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x92</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Tier>2</Tier> <Common/>
+      <Description>A axe with a golden handle, hardened well.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>85</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>		 
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0x6433" id="Shiny Golden Axe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x93</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Tier>3</Tier> <Uncommon/>
+      <Description>A axe made for the wealth.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Lightning Blast</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>45</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>		 
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0x6434" id="Shiny Emerald Axe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x94</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Tier>4</Tier> <Uncommon/>
+      <Description>The axe with extra sharpened points.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Green Bolt</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>50</MinDamage>
+         <MaxDamage>95</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>		 
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0x6435" id="Iron Axe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x95</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Tier>5</Tier> <Uncommon/>
+      <Description>A iron axe capable to swing its enemy to the ground.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/fire_sword</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>55</MinDamage>
+         <MaxDamage>100</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>		 
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0x6436" id="Enchanted Sky Battle-Axe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x96</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Tier>6</Tier> <Rare/>
+      <Description>Gifted from the sky gods, only true heroes weld the holy axe.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/glass_sword</Sound>
+      <Projectile>
+         <ObjectId>Blue Bolt</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>60</MinDamage>
+         <MaxDamage>115</MaxDamage>
+         <LifetimeMS>360</LifetimeMS>
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>		 
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0x6437" id="Magical Earth Battle-Axe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x97</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Tier>7</Tier> <Rare/>
+      <Description>The axe has 3 layers, the crust, the mantle, and the final layer, the core.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/golden_sword</Sound>
+      <Projectile>
+         <ObjectId>Green Missile</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>70</MinDamage>
+         <MaxDamage>125</MaxDamage>
+         <LifetimeMS>425</LifetimeMS>
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>		 
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0x6438" id="Battle-Axe of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x98</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Tier>8</Tier> <Epic/>
+      <Description>A powerful axe infused with the spirit of deep dark void.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/mithril_sword</Sound>
+      <Projectile>
+         <ObjectId>Purple Bolt</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>80</MinDamage>
+         <MaxDamage>135</MaxDamage>
+         <LifetimeMS>425</LifetimeMS>
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>		 
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+	</Object>
+</Objects>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+<Object type="0xa31" id="Priest Tome">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x50</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A holy tome of healing prayers.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>50</MpCost>
+      <Activate range="3" amount="115" useWisMod="true">HealNova</Activate>
+   </Object>
+   <Object type="0xad7" id="Remedy Tome">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x51</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A hallowed tome of mixed healing herbs.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>2</BagType>
+	  <FameBonus>1</FameBonus>  
+      <MpCost>55</MpCost>
+      <Activate range="3.5" amount="145" useWisMod="true">HealNova</Activate>
+   </Object>
+   <Object type="0xa32" id="Ritual Tome">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x52</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>An exalted holy tome, used with satanic rituals held.</Description>
+      <Sound>spell/heal_nova</Sound>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <MpCost>65</MpCost>
+      <Activate effect="Healing" duration="3" range="4" useWisMod="true">ConditionEffectAura</Activate>
+      <Activate range="4" amount="180" useWisMod="true">HealNova</Activate>
+   </Object>
+   <Object type="0xad8" id="Enchanted Sky Tome">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x53</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A sacred tome, consecrated by the spirits of the upright and the supplications of the pure.</Description>
+      <Sound>spell/heal_nova</Sound>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>70</MpCost>
+      <Activate effect="Healing" duration="4" range="4.5" useWisMod="true">ConditionEffectAura</Activate>
+      <Activate range="4.5" amount="235" useWisMod="true">HealNova</Activate>
+   </Object>
+   <Object type="0xa33" id="Magical Earth Tome">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x54</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>An earth tome, empowered by divine might and justified by mother nature.</Description>
+      <Sound>spell/major_heal</Sound>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>75</MpCost>
+      <Activate effect="Healing" duration="4.5" range="4.5" useWisMod="true">ConditionEffectAura</Activate>
+      <Activate range="4.5" amount="255" useWisMod="true">HealNova</Activate>
+   </Object>
+   <Object type="0xa5b" id="Tome of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x55</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A tome from the depths of the void, no knows what this tome will do to a person.</Description>
+      <Sound>spell/major_heal</Sound>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate effect="Healing" duration="5" range="5" useWisMod="true">ConditionEffectAura</Activate>
+      <Activate range="5" amount="300" useWisMod="true">HealNova</Activate>
+   </Object>
+</Objects>

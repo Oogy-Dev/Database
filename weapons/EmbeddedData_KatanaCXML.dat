@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+ <Object type="0xc44" id="Basic Katana">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x80</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A rusty old katana.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/blunt_sword</Sound>
+      <Projectile>
+         <ObjectId>Line Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>45</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xc45" id="Plain Katana">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x81</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>Only ninjas who aquire this are gifted.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/blunt_sword</Sound>
+      <Projectile>
+         <ObjectId>Line Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>50</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <FameBonus>1</FameBonus>	  	  	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xc46" id="Combat Katana">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x82</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>2</Tier> <Common/>
+      <Description>A katana for combat, ready to use.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Line Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>55</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xc47" id="Broad Katana">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x83</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>3</Tier> <Uncommon/>
+      <Description>A striking fine-edged weapon.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Line Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>55</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xc48" id="Machete">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x84</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>4</Tier> <Uncommon/>
+      <Description>A machete capable of cutting a razor-thin line.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Line Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>65</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xc49" id="Iron Machete">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x85</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>5</Tier> <Uncommon/>
+      <Description>A machete that can never rust.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Line Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>55</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xc4a" id="Enchanted Sky Machete">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x86</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>6</Tier> <Rare/>
+      <Description>A scared machete from the tippy top peak, the sky gods blessed the holy warrior.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Sky Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>60</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xc4b" id="Magical Earth Machete">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x87</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>7</Tier> <Rare/>
+      <Description>Tempting to weld a machete from long ago.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Z Blast</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>65</MinDamage>
+         <MaxDamage>85</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xc4c" id="Machete of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x88</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>8</Tier> <Epic/>
+      <Description>Deep down in the mysterious and unknown world.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Roger Bolt</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>70</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+</Objects>

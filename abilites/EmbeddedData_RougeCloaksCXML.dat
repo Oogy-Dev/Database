@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0xa56" id="Cloak of Aura">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x20</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A cloak that is required for a rogue to wear.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>60</MpCost>
+      <Activate effect="Invisible" duration="3">ConditionEffectSelf</Activate>
+      <Cooldown>4</Cooldown>
+   </Object>
+   <Object type="0xa57" id="Cloak of Yielded Power">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x21</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Tier>1</Tier> <Common/> 
+      <Description>A mighty rogue shall wear this to achive greater power.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+      <MpCost>65</MpCost>
+      <Activate effect="Invisible" duration="3.5">ConditionEffectSelf</Activate>
+      <Cooldown>4.5</Cooldown>
+   </Object>
+   <Object type="0xa58" id="Cloak of the Midnight Morning">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x22</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A mystical cloak from a place where its always daytime.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <MpCost>70</MpCost>
+      <Activate effect="Invisible" duration="4">ConditionEffectSelf</Activate>
+      <Cooldown>5</Cooldown>
+   </Object>
+   <Object type="0xadb" id="Enchanted Sky Cloak">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x23</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>The sky temple does not have weak people, it shall not allow weaklings into the temple.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>75</MpCost>
+      <Activate effect="Invisible" duration="4.5">ConditionEffectSelf</Activate>
+      <Cooldown>5.5</Cooldown>
+   </Object>
+   <Object type="0xa59" id="Magicial Earth Cloak">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x24</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>The earth will rise upon us and nurture us.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="3">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate effect="Invisible" duration="5">ConditionEffectSelf</Activate>
+      <Cooldown>6</Cooldown>
+   </Object>
+   <Object type="0xae1" id="Cloak of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x25</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A powerful cloak woven from the shadows of the deep void.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="4">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>85</MpCost>
+      <Activate effect="Invisible" duration="5.5">ConditionEffectSelf</Activate>
+      <Cooldown>6.5</Cooldown>
+   </Object>
+</Objects>

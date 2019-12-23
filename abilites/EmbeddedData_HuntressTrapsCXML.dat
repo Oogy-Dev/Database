@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+ <Object type="0xab1" id="Hunters Trap">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x10</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>Whats a hunter without a trap, use this to kill certain animals.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>35</MpCost>
+      <Activate radius="3.5" totalDamage="80" condDuration="4.0">Trap</Activate>
+   </Object>
+   <Object type="0xab2" id="Sarrow Beast Trap">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x11</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>This can trap a prey and kill it in seconds, if set properly.</Description>
+      <Usable/>
+      <BagType>2</BagType>
+	  <FameBonus>1</FameBonus>  	  
+      <MpCost>55</MpCost>
+      <Activate radius="4.5" totalDamage="140" condDuration="4.5">Trap</Activate>
+   </Object>
+   <Object type="0xab3" id="Savage Trap">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x12</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>Those who seek vengance will become a vicious savage...</Description>
+      <Usable/>
+      <BagType>2</BagType>
+	  <FameBonus>2</FameBonus>  
+      <MpCost>70</MpCost>
+      <Activate radius="5" totalDamage="225" condDuration="5.0">Trap</Activate>
+   </Object>
+   <Object type="0xab4" id="Enchanted Sky Trap">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x13</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A mighty trap that came from the sky temple, will the gods bless down from the gates of heaven?</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>100</MpCost>
+      <Activate radius="5.5" totalDamage="375" condDuration="5.5">Trap</Activate>
+   </Object>
+   <Object type="0xab5" id="Magical Earth Trap">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x14</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>You will cause destruction using mother natures power.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>115</MpCost>
+      <Activate radius="6" totalDamage="550" condDuration="6">Trap</Activate>
+   </Object>
+   <Object type="0xab6" id="Trap of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x15</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A powerful evil spirit from the void has been trapped inside this, be careful using this...</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>135</MpCost>
+      <Activate radius="6.5" totalDamage="800" condDuration="6.5">Trap</Activate>
+   </Object>
+</Objects>

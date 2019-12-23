@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+<Object type="0xae4" id="Stasis Orb">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x90</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A crystal orb that holds enemies in an ethereal prison.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>65</MpCost>
+      <Activate duration="3">StasisBlast</Activate>
+   </Object>
+   <Object type="0xa42" id="Water Orb">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x91</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>An orb that will trap its enemy on statis.</Description>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  
+      <MpCost>65</MpCost>
+      <Activate effect="Curse" duration="4.5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
+      <Activate duration="3.5">StasisBlast</Activate>
+   </Object>
+   <Object type="0xa43" id="Demonic Orb">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x92</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>An orb used by starwizards to bind their demonic opponents.</Description>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <MpCost>70</MpCost>
+      <Activate effect="Curse" duration="5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
+      <Activate duration="4">StasisBlast</Activate>
+   </Object>
+   <Object type="0xa44" id="Enchanted Sky Orb">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x93</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A glowing orb of pale diamond, used to constrain elementals to the astral mists.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>75</MpCost>
+      <Activate effect="Curse" duration="5.5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
+      <Activate duration="4.5">StasisBlast</Activate>
+   </Object>
+   <Object type="0xa45" id="Magical Earth Orb">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x94</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>A orb that will destruct any thing its in path.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate effect="Curse" duration="6" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
+      <Activate duration="5">StasisBlast</Activate>
+   </Object>
+   <Object type="0xa46" id="Orb of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x95</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>An orb of pure void with the thirsting to consume the life essence of mortals.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate effect="Berserk" duration="1.5" useWisMod="true">ConditionEffectSelf</Activate>
+      <Activate effect="Curse" duration="6.5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
+      <Activate duration="5.5">StasisBlast</Activate>
+   </Object>
+</Objects>

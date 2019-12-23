@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+<Object type="0xaa3" id="Centipede Venom">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x80</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>Deadly poison of the swamp centipede.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>35</MpCost>
+      <Activate radius="2.5" totalDamage="160" duration="5" useWisMod="true">PoisonGrenade</Activate>
+   </Object>
+   <Object type="0xaa4" id="Venom of a Scorpion">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x81</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A venom from one of the deadliest scorpions in the world.</Description>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+      <MpCost>40</MpCost>
+      <Activate radius="3" totalDamage="235" duration="5.5" useWisMod="true"> PoisonGrenade</Activate>
+   </Object>
+   <Object type="0xaa5" id="Vile of a Vipers Venom">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x82</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>Deadly venom extracted from one of the unknown vipers in the underworld.</Description>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <MpCost>60</MpCost>
+      <Activate radius="3.5" totalDamage="350" duration="6" useWisMod="true">PoisonGrenade</Activate>
+   </Object>
+   <Object type="0xaa6" id="Enchanted Sky Venom">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x83</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A drop of this venom will slowly kill the victim in seconds.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate radius="4" totalDamage="475" duration="6.5" useWisMod="true">PoisonGrenade</Activate>
+   </Object>
+   <Object type="0xaa7" id="Magical Earth Venom">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x84</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>Magically refined venom from mother nature herself.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>95</MpCost>
+      <Activate radius="4.5" totalDamage="655" duration="7" useWisMod="true"> PoisonGrenade</Activate>
+   </Object>
+   <Object type="0xaa8" id="Vile of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x85</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A vile from the void, to this day it has been unreachable...</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>110</MpCost>
+      <Activate radius="5" totalDamage="850" duration="7.5" useWisMod="true"> PoisonGrenade</Activate>
+   </Object>
+</Objects>

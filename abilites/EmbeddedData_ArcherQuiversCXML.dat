@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+ <Object type="0xa61" id="Magic Quiver">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x30</Index>
+      </Texture>
+      <SlotType>15</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A magical quiver that enchants arrows.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Red Arrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>100</MinDamage>
+         <MaxDamage>140</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>150</Size>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>50</MpCost>
+      <Activate>Shoot</Activate>
+   </Object>
+   <Object type="0xa62" id="Reinforced Quiver">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x31</Index>
+      </Texture>
+      <SlotType>15</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>An enchanted quiver made of high-quality leather and brass.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Red Arrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>140</MinDamage>
+         <MaxDamage>180</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>150</Size>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="28" amount="1">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+      <MpCost>55</MpCost>
+      <Activate>Shoot</Activate>
+   </Object>
+   <Object type="0xa63" id="Green Quiver">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>15</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A strong quiver of magical iron.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>180</MinDamage>
+         <MaxDamage>220</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>150</Size>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <MpCost>60</MpCost>
+      <Activate>Shoot</Activate>
+   </Object>
+   <Object type="0xade" id="Enchanted Sky Quiver">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x33</Index>
+      </Texture>
+      <SlotType>15</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A powerful enchanting quiver made by the heavens of the sky.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Blue Arrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>220</MinDamage>
+         <MaxDamage>260</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>150</Size>
+         <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="28" amount="3">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>65</MpCost>
+      <Activate>Shoot</Activate>
+   </Object>
+   <Object type="0xa64" id="Magical Earth Quiver">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x34</Index>
+      </Texture>
+      <SlotType>15</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>A quiver that will cause destruction when hit.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>240</MinDamage>
+         <MaxDamage>320</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>150</Size>
+         <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="28" amount="4">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>70</MpCost>
+      <Activate>Shoot</Activate>
+   </Object>
+   <Object type="0xa65" id="Quiver of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x35</Index>
+      </Texture>
+      <SlotType>15</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A quiver that has a entity inside this unknown quiver.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Purple Arrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>290</MinDamage>
+         <MaxDamage>350</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>150</Size>
+         <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="28" amount="5">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>75</MpCost>
+      <Activate>Shoot</Activate>
+   </Object>
+</Objects>

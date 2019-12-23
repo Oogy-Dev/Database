@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+ <Object type="0xa24" id="Pendant of Strength">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa0</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A bronze pendant holds a gemstone with magical given attack.</Description>
+      <ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+   </Object>
+   <Object type="0xa25" id="Pendant of Protection">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa1</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A bronze pendant holds a gemstone with magical given defense.</Description>
+      <ActivateOnEquip stat="21" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+   </Object>
+   <Object type="0xa26" id="Pendant of Swiftness">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa2</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A bronze pendant holds a gemstone with magical given speed.</Description>
+      <ActivateOnEquip stat="22" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+   </Object>
+   <Object type="0xa36" id="Pendant of Vigor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa3</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A bronze pendant holds a gemstone with magical given vitality.</Description>
+      <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+   </Object>
+   <Object type="0xa37" id="Pendant of Perception">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa4</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A bronze pendant holds a gemstone with magical given wisdom.</Description>
+      <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+   </Object>
+   <Object type="0xa4d" id="Pendant of Efficiency">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa5</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A bronze pendant holds a gemstone with magical given dexterity.</Description>
+      <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+   </Object>
+   <Object type="0xa27" id="Pendant of Constitution">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa6</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A bronze pendant holds a gemstone with magical given health.</Description>
+      <ActivateOnEquip stat="0" amount="40">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+   </Object>
+   <Object type="0xa28" id="Pendant of Enchantments">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa7</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A bronze pendant holds a gemstone with magical given magic.</Description>
+      <ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+   </Object>
+   
+      <Object type="0xa29" id="Pendant of Great Strength">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb0</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A silver pendant holds a gemstone with magical given attack.</Description>
+      <ActivateOnEquip stat="20" amount="4">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+   </Object>
+   <Object type="0x9215" id="Pendant of Great Protection">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb1</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A silver pendant holds a gemstone with magical given defense.</Description>
+      <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+   </Object>
+   <Object type="0x3232" id="Pendant of Great Swiftness">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb2</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A silver pendant holds a gemstone with magical given speed.</Description>
+      <ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+   </Object>
+   <Object type="0x3252" id="Pendant of Great Vigor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb3</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A silver pendant holds a gemstone with magical given vitality.</Description>
+      <ActivateOnEquip stat="26" amount="4">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+   </Object>
+   <Object type="0x3255" id="Pendant of Great Perception">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb4</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A silver pendant holds a gemstone with magical given wisdom.</Description>
+      <ActivateOnEquip stat="27" amount="4">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+   </Object>
+   <Object type="0x4251" id="Pendant of Great Efficiency">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb5</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A silver pendant holds a gemstone with magical given dexterity.</Description>
+      <ActivateOnEquip stat="28" amount="4">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+   </Object>
+   <Object type="0x9333" id="Pendant of Great Constitution">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb6</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A silver pendant holds a gemstone with magical given health.</Description>
+      <ActivateOnEquip stat="0" amount="80">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+   </Object>
+   <Object type="0x9132" id="Pendant of Great Enchantments">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb7</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A silver pendant holds a gemstone with magical given magic.</Description>
+      <ActivateOnEquip stat="3" amount="80">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+	  <FameBonus>2</FameBonus>
+   </Object>
+
+   <Object type="0xab7" id="Pendant of Excellent Strength">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc0</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A golden pendant holds a gemstone with magical given attack.</Description>
+      <ActivateOnEquip stat="20" amount="6">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+   </Object>
+   <Object type="0xab8" id="Pendant of Excellent Protection">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc1</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A golden pendant holds a gemstone with magical given defense.</Description>
+      <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+   </Object>
+   <Object type="0xab9" id="Pendant of Excellent Swiftness">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc2</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A golden pendant holds a gemstone with magical given speed.</Description>
+      <ActivateOnEquip stat="22" amount="6">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+   </Object>
+   <Object type="0xaba" id="Pendant of Excellent Vigor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc3</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A golden pendant holds a gemstone with magical given vitality.</Description>
+      <ActivateOnEquip stat="26" amount="6">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+   </Object>
+   <Object type="0xabb" id="Pendant of Excellent Perception">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc4</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A golden pendant holds a gemstone with magical given wisdom.</Description>
+      <ActivateOnEquip stat="27" amount="6">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+   </Object>
+   <Object type="0xabc" id="Pendant of Excellent Efficiency">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc5</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A golden pendant holds a gemstone with magical given dexterity.</Description>
+      <ActivateOnEquip stat="28" amount="6">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+   </Object>
+   <Object type="0xabd" id="Pendant of Excellent Constitution">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc6</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A golden pendant holds a gemstone with magical given health.</Description>
+      <ActivateOnEquip stat="0" amount="120">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+   </Object>
+   <Object type="0xabe" id="Pendant of Excellent Enchantments">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc7</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A golden pendant holds a gemstone with magical given magic.</Description>
+      <ActivateOnEquip stat="3" amount="120">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+   </Object>
+   <Object type="0xabf" id="Pendant of Significant Strength">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xd0</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>4</Tier> <Epic/>
+      <Description>A golden pendant holds a gemstone with magical given attack.</Description>
+      <ActivateOnEquip stat="20" amount="8">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+   <Object type="0xac0" id="Pendant of Significant Protection">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xd1</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>4</Tier> <Epic/>
+      <Description>A golden pendant holds a gemstone with magical given defense.</Description>
+      <ActivateOnEquip stat="21" amount="8">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+   <Object type="0xac1" id="Pendant of Significant Swiftness">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xd2</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>4</Tier> <Epic/>
+      <Description>A golden pendant holds a gemstone with magical given speed.</Description>
+      <ActivateOnEquip stat="22" amount="8">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+   <Object type="0xac2" id="Pendant of Significant Vigor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xd3</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>4</Tier> <Epic/>
+      <Description>A golden pendant holds a gemstone with magical given vitality.</Description>
+      <ActivateOnEquip stat="26" amount="8">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+   <Object type="0xac3" id="Pendant of Significant Perception">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xd4</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>4</Tier> <Epic/>
+      <Description>A golden pendant holds a gemstone with magical given wisdom.</Description>
+      <ActivateOnEquip stat="27" amount="8">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+   <Object type="0xac4" id="Pendant of Significant Efficiency">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xd5</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>4</Tier> <Epic/>
+      <Description>A golden pendant holds a gemstone with magical given dexterity.</Description>
+      <ActivateOnEquip stat="28" amount="8">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+   <Object type="0xac5" id="Pendant of Significant Constitution">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xd6</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>4</Tier> <Epic/>
+      <Description>A golden pendant holds a gemstone with magical given health.</Description>
+      <ActivateOnEquip stat="0" amount="160">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+   <Object type="0xac6" id="Pendant of Significant Enchantments">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xd7</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>4</Tier> <Epic/>
+      <Description>A golden pendant holds a gemstone with magical given magic.</Description>
+      <ActivateOnEquip stat="3" amount="160">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+</Objects>

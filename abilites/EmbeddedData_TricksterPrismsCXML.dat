@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+<Object type="0xae3" id="Tricksters Prism">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xb0</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A magical prism that creates a decoy.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>60</MpCost>
+      <Activate duration="3">Decoy</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+   </Object>
+   <Object type="0xb1c" id="Deception Prism">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xb1</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A dervison a trickster can play on a deciving fool.</Description>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+      <MpCost>65</MpCost>
+      <Activate duration="3.5">Decoy</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+   </Object>
+   <Object type="0xb1d" id="Illusion Prism">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xb2</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>An infiltrator's prism used by eldritch spies to create diversions behind the battle lines.</Description>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <MpCost>70</MpCost>
+      <Activate duration="4">Decoy</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+   </Object>
+   <Object type="0xb1e" id="Enchanted Sky Prism">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xb3</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A mind-affecting prism that creates powerful psychic illusions to the enemy.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>75</MpCost>
+      <Activate duration="4.5">Decoy</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+   </Object>
+   <Object type="0xb1f" id="Magical Earth Prism">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xb4</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>A special prism for a trickster to destruct peoples minds.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate duration="5">Decoy</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+   </Object>
+   <Object type="0xb20" id="Prism of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xb5</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A prism of the void that consists entity dust that can explode multiple minds in seconds.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>85</MpCost>
+      <Activate duration="5.5">Decoy</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+   </Object>
+</Objects>

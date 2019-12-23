@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+  <Object type="0xa00" id="Basic Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x30</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A basic sword made for practice.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/blunt_sword</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>35</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>			 
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+    
+   <Object type="0xa6c" id="Steel Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x31</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A steel sword made by a fine blacksmith.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>	 
+      </Projectile>
+      <BagType>1</BagType>
+      <FameBonus>1</FameBonus>	  	  	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xa6d" id="Broad Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>2</Tier> <Common/>
+      <Description>A sword with a golden handle, hardened well.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>45</MinDamage>
+         <MaxDamage>105</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>		 
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xa01" id="Shiny Golden Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x33</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>3</Tier> <Uncommon/>
+      <Description>A sword made for the wealth.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Lightning Blast</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>55</MinDamage>
+         <MaxDamage>115</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xa6e" id="Shiny Emerald Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x34</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>4</Tier> <Uncommon/>
+      <Description>The sword with extra sharpened points.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Green Bolt</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>65</MinDamage>
+         <MaxDamage>125</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xa3b" id="Iron Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x35</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>5</Tier> <Uncommon/>
+      <Description>A iron sword capable to swing its enemy to the ground.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/fire_sword</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>75</MinDamage>
+         <MaxDamage>135</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xa3c" id="Enchanted Sky Blade">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x36</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>6</Tier> <Rare/>
+      <Description>Gifted from the sky gods, only true heroes weld the holy sword.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/glass_sword</Sound>
+      <Projectile>
+         <ObjectId>Blue Bolt</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>80</MinDamage>
+         <MaxDamage>140</MaxDamage>
+         <LifetimeMS>360</LifetimeMS>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xa02" id="Magical Earth Blade">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x37</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>7</Tier> <Rare/>
+      <Description>The sword has 3 layers, the crust, the mantle, and the final layer, the core.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/golden_sword</Sound>
+      <Projectile>
+         <ObjectId>Green Missile</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>85</MinDamage>
+         <MaxDamage>145</MaxDamage>
+         <LifetimeMS>425</LifetimeMS>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0xa82" id="Blade of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x38</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>8</Tier> <Epic/>
+      <Description>A powerful sword infused with the spirit of deep dark void.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/mithril_sword</Sound>
+      <Projectile>
+         <ObjectId>Purple Bolt</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>90</MinDamage>
+         <MaxDamage>150</MaxDamage>
+         <LifetimeMS>425</LifetimeMS>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+</Objects>

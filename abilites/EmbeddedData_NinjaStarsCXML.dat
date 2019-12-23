@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+ <Object type="0xc53" id="Basic Shuriken">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xd0</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A basic ninja-shuriken.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="While Key Held" description=""/>
+         <EffectInfo name="" description="Speedy on self"/>
+         <EffectInfo name="" description="Drain 10 MP/sec"/>
+         <EffectInfo name="When Key Released" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Ninja Star Basic</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>100</MinDamage>
+         <MaxDamage>125</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>70</Size>
+         <PassesCover/>
+      </Projectile>
+      <Usable/>
+      <BagType>1</BagType>
+      <NumProjectiles>3</NumProjectiles>
+      <ArcGap>7</ArcGap>	  	  
+      <MpCost>0</MpCost>
+      <MpEndCost>30</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+   </Object>
+   <Object type="0xc54" id="Sharp Shuriken">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xd1</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A ninja-Shuriken with very sharp points.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="While Key Held" description=""/>
+         <EffectInfo name="" description="Speedy on self"/>
+         <EffectInfo name="" description="Drain 10 MP/sec"/>
+         <EffectInfo name="When Key Released" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Ninja Star Four-Point</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>125</MinDamage>
+         <MaxDamage>175</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>70</Size>
+         <PassesCover/>
+      </Projectile>
+      <Usable/>
+      <BagType>2</BagType>
+      <NumProjectiles>3</NumProjectiles>  
+      <ArcGap>7</ArcGap>	  	  
+      <MpCost>0</MpCost>
+      <FameBonus>1</FameBonus>	  	  
+      <MpEndCost>40</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+   </Object>
+   <Object type="0xc55" id="Razor Shuriken">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xd2</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A ninja-shuriken with curved spiraling blades.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="While Key Held" description=""/>
+         <EffectInfo name="" description="Speedy on self"/>
+         <EffectInfo name="" description="Drain 10 MP/sec"/>
+         <EffectInfo name="When Key Released" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Ninja Star Spiral</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>190</MinDamage>
+         <MaxDamage>250</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>70</Size>
+         <PassesCover/>
+      </Projectile>
+      <Usable/>
+      <BagType>2</BagType>
+      <NumProjectiles>3</NumProjectiles>	  
+      <ArcGap>7</ArcGap>	  	  
+      <FameBonus>2</FameBonus>	  
+      <MpCost>0</MpCost>
+      <MpEndCost>50</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+   </Object>
+   <Object type="0xc56" id="Enchanted Sky Shuriken">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xd3</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A blessed Star from the sky gods.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="While Key Held" description=""/>
+         <EffectInfo name="" description="Speedy on self"/>
+         <EffectInfo name="" description="Drain 10 MP/sec"/>
+         <EffectInfo name="When Key Released" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Ninja Star Silver</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>265</MinDamage>
+         <MaxDamage>325</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>70</Size>
+         <PassesCover/>
+      </Projectile>
+      <Usable/>
+      <BagType>4</BagType>
+      <NumProjectiles>3</NumProjectiles>	 
+      <ArcGap>7</ArcGap>	  	  
+      <FameBonus>3</FameBonus>
+      <MpCost>0</MpCost>
+      <MpEndCost>60</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+   </Object>
+   <Object type="0xc57" id="Magical Earth Shuriken">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xd4</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>A earth shuriken that embodies the power and speed of the wind.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="While Key Held" description=""/>
+         <EffectInfo name="" description="Speedy on self"/>
+         <EffectInfo name="" description="Drain 10 MP/sec"/>
+         <EffectInfo name="When Key Released" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Ninja Star Wind</ObjectId>
+         <Speed>170</Speed>
+         <MinDamage>350</MinDamage>
+         <MaxDamage>425</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>70</Size>
+         <PassesCover/>
+      </Projectile>
+      <Usable/>
+      <BagType>4</BagType>
+      <NumProjectiles>3</NumProjectiles>
+      <ArcGap>7</ArcGap>	  	  
+      <FameBonus>3</FameBonus>
+      <MpCost>0</MpCost>
+      <MpEndCost>70</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+   </Object>
+   <Object type="0xc58" id="Shuriken of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xd5</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A unknown shuriken from the void.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="While Key Held" description=""/>
+         <EffectInfo name="" description="Speedy on self"/>
+         <EffectInfo name="" description="Drain 10 MP/sec"/>
+         <EffectInfo name="When Key Released" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Ninja Star Ice</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>410</MinDamage>
+         <MaxDamage>465</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>70</Size>
+         <PassesCover/>
+      </Projectile>
+      <Usable/>
+      <BagType>4</BagType>
+      <NumProjectiles>3</NumProjectiles>
+      <ArcGap>7</ArcGap>	  
+      <FameBonus>4</FameBonus>
+      <MpCost>0</MpCost>
+      <MpEndCost>85</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+   </Object>
+</Objects>

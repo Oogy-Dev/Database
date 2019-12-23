@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+         <Object type="0xa97" id="Staff of Energy">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x70</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A magical wooden staff topped with a white crystal.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/fire_wand</Sound>
+      <Projectile>
+         <ObjectId>Small White Blast</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>5</MinDamage>
+         <MaxDamage>20</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <FaceDir/>		 
+      </Projectile>
+      <BagType>1</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   
+   <Object type="0xa98" id="Staff of Cosemtic Flames">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x71</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A staff imbued with potent magical fire.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Teal Blast</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>25</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <FaceDir/>		 
+      </Projectile>
+      <BagType>1</BagType>
+      <FameBonus>1</FameBonus>	  	  
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa99" id="Staff of Fire">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x72</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>2</Tier> <Common/>
+      <Description>A staff that can cast fire.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Orange Blast</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>30</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <FaceDir/>		 
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa9a" id="Staff of the Wizard">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x73</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>3</Tier> <Uncommon/>
+      <Description>A staff mainly for wizards, in battles, in wars, and in raiding.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Red Blast</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>35</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <FaceDir/>		 
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa9b" id="Staff of the Slayer">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x74</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>4</Tier> <Uncommon/>
+      <Description>The nomad keeps away this staff for hunting, or any enemy trying to hunt him.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Pink Blast</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>40</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <FaceDir/>		 
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa9c" id="Staff of the Cosmos">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x75</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>5</Tier> <Uncommon/>
+      <Description>The staff from the cosmos, up, up, and away.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/hells_fire_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Blue Blast</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>45</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <FaceDir/>		 
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa9d" id="Staff of the Enchanted Skys">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x76</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>6</Tier> <Rare/>
+      <Description>The staff belongs to a blessed wizard.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_dark_magic</Sound>
+      <Projectile>
+         <ObjectId>Small Cyan Blast</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>50</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <FaceDir/>		 
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa9e" id="Staff of Earths Demise">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x77</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>7</Tier> <Rare/>
+      <Description>An ancient staff from the deeps of the earth crust.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/sprite_wand</Sound>
+      <Projectile>
+         <ObjectId>Small Green Blast</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>55</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <FaceDir/>		 
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   <Object type="0xa9f" id="Staff of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x78</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>8</Tier> <Epic/>
+      <Description>A mysterious staff from an unknown realm, the void...</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>Small Purple Blast</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>35</MinDamage>
+         <MaxDamage>60</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <FaceDir/>		 
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+</Objects>

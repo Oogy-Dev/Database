@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0xa14" id="Basic Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x60</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A basic dagger made for practice.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/blunt_dagger</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>55</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>daggerSwing</OldSound>
+   </Object>
+   
+   <Object type="0xa15" id="Steel Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x61</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A steel dagger made by a fine blacksmith.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/dirk</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>60</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <FameBonus>1</FameBonus>	  
+      <OldSound>daggerSwing</OldSound>
+   </Object>
+   <Object type="0xa72" id="Broad Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x62</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>2</Tier> <Common/>
+      <Description>A dagger with a golden handle, hardened well.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/dirk</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>65</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  
+      <OldSound>daggerSwing</OldSound>
+   </Object>
+   <Object type="0xa73" id="Shiny Golden Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x63</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>3</Tier> <Uncommon/>
+      <Description>A dagger made for the wealth.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/dirk</Sound>
+      <Projectile>
+         <ObjectId>Lightning Blast</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  	  
+      <OldSound>daggerSwing</OldSound>
+   </Object>
+   <Object type="0xa74" id="Shiny Emerald Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x64</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>4</Tier> <Uncommon/>
+      <Description>The dagger with extra sharpened points.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/dirk</Sound>
+      <Projectile>
+         <ObjectId>Green Bolt</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>75</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  	  
+      <OldSound>daggerSwing</OldSound>
+   </Object>
+   <Object type="0xa16" id="Iron Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x65</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>5</Tier> <Uncommon/>
+      <Description>A iron dagger capable to swing its enemy to the ground.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/golden_dagger</Sound>
+      <Projectile>
+         <ObjectId>Assassin Swipe</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  	  
+      <OldSound>daggerSwing</OldSound>
+   </Object>
+   <Object type="0xa17" id="Enchanted Sky Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x66</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>6</Tier> <Rare/>
+      <Description>Gifted from the sky gods, only true heroes weld the holy dagger.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/obsidian_dagger</Sound>
+      <Projectile>
+         <ObjectId>Blue Bolt</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>85</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  	  
+      <OldSound>daggerSwing</OldSound>
+   </Object>
+   <Object type="0xa18" id="Magical Earth Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x67</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>7</Tier> <Rare/>
+      <Description>The dagger has 3 layers, the crust, the mantle, and the final layer, the core.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/mithril_dagger</Sound>
+      <Projectile>
+         <ObjectId>Green Missile</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  	  
+      <OldSound>daggerSwing</OldSound>
+   </Object>
+   <Object type="0xa19" id="Dagger of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x68</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>8</Tier> <Epic/>
+      <Description>A powerful dagger infused with the spirit of deep dark void.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/fire_dagger</Sound>
+      <Projectile>
+         <ObjectId>Purple Bolt</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>35</MinDamage>
+         <MaxDamage>95</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>daggerSwing</OldSound>
+   </Object>       
+</Objects>

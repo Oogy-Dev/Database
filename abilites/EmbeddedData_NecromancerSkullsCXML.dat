@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+<Object type="0xaaa" id="Human Skull">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x00</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A human skull corrupted with life-stealing necrotic magic.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>40</MpCost>
+      <Activate radius="2.5" totalDamage="75">VampireBlast</Activate>
+   </Object>
+   <Object type="0xaab" id="Ancient Skull">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x01</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A ancient skull desecrated by foul enchantments.</Description>
+      <Usable/>
+      <BagType>2</BagType>
+	  <FameBonus>1</FameBonus>  	  	  
+      <MpCost>60</MpCost>
+      <Activate radius="2.75" totalDamage="125">VampireBlast</Activate>
+   </Object>
+   <Object type="0xaac" id="Blood Skull">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x02</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>An elvish wizard's skull, defiled with life-stealing necrotic spells.</Description>
+      <Usable/>
+      <BagType>2</BagType>
+	  <FameBonus>2</FameBonus>  	  	  
+      <MpCost>80</MpCost>
+      <Activate radius="3" totalDamage="200">VampireBlast</Activate>
+   </Object>
+   <Object type="0xaad" id="Enchanted Sky Skull">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x03</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A holy paladin's skull, fouled by depraved incantations of temple.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+	  <FameBonus>3</FameBonus>  	  
+      <MpCost>100</MpCost>
+      <Activate radius="3.25" totalDamage="250">VampireBlast</Activate>
+   </Object>
+   <Object type="0xaae" id="Magical Earth Skull">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x04</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>A skull from the carverns of the earths surface.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+	  <FameBonus>3</FameBonus>  	  
+      <MpCost>120</MpCost>
+      <Activate radius="3.5" totalDamage="300">VampireBlast</Activate>
+   </Object>
+   <Object type="0xaaf" id="Skull of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x05</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A powerful void entity sucking its enemys life away from this one skull.</Description>
+      <Usable/>
+      <BagType>4</BagType>
+	  <FameBonus>4</FameBonus>  	  
+      <MpCost>140</MpCost>
+      <Activate radius="3.75" totalDamage="350">VampireBlast</Activate>
+   </Object>
+</Objects>

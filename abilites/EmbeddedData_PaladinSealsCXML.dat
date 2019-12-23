@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+<Object type="0xa52" id="Seal of Protection">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xa0</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A seal that will protect its allys with a activation of this seal.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>65</MpCost>
+      <Activate effect="Healing" duration="2.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="2.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+   </Object>
+   <Object type="0xad9" id="Seal of the Divine Healing">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xa1</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A seal of holy providence and mortal virtue.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+      <MpCost>65</MpCost>
+      <Activate effect="Healing" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+   </Object>
+   <Object type="0xa53" id="Seal of the Activist">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xa2</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A holy seal of godly protection, shimmering with divine might.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+      <MpCost>70</MpCost>
+      <Activate stat="0" amount="10" duration="3" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
+      <Activate effect="Healing" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+   </Object>
+   <Object type="0xada" id="Enchanted Sky Seal">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xa3</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>A seal of blessed preservation, gleaming with the sacred will of the temple.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>75</MpCost>
+      <Activate stat="0" amount="25" duration="3.5" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
+      <Activate effect="Healing" duration="3.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="3.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+   </Object>
+   <Object type="0xa54" id="Magical Earth Seal">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xa4</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>A consecrated seal of the earths depths, mother nature will strengthen the nearest allys up.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate stat="0" amount="45" duration="3.5" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
+      <Activate effect="Healing" duration="3.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="3.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+   </Object>
+   <Object type="0xa55" id="Seal of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xa5</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A unknown seal from the void, some say this might kill the person abusing this power.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>85</MpCost>
+      <Activate stat="0" amount="55" duration="4" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
+      <Activate effect="Healing" duration="4" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="4" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+   </Object>
+</Objects>

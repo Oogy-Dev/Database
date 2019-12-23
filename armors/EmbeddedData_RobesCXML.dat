@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+<Object type="0xa5c" id="Worn Robe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x10</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A worn robe, nothing much, but its still better than nothing.</Description>
+	  <ActivateOnEquip stat="3" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+   </Object>
+   <Object type="0xa7e" id="Robe of a Witch">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x11</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>2</Tier> <Common/>
+      <Description>A robe that was once wore by a witch, maybe it has some magic still left.</Description>
+	  <ActivateOnEquip stat="3" amount="10">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="21" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <FameBonus>1</FameBonus>	  
+   </Object>
+   <Object type="0xa5d" id="Robe of Magic">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x12</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>3</Tier> <Common/>
+      <Description>This robe provides magic and protection, use it as its intended.</Description>
+      <ActivateOnEquip stat="3" amount="15">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+   </Object>
+   <Object type="0xa7f" id="Robe of the Druid">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x13</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>4</Tier> <Uncommon/>
+      <Description>Druids can weld earth magic, wear this and achive greater protection and strength.</Description>
+      <ActivateOnEquip stat="3" amount="25">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+   </Object>
+   <Object type="0xa80" id="Robe of the Dwarves">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x14</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>5</Tier> <Uncommon/>
+      <Description>A magical robe of the Dwarves, you probaly wont fit trying.</Description>
+      <ActivateOnEquip stat="3" amount="35">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="21" amount="7">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  
+   </Object>
+   <Object type="0xa5e" id="Enchanted Wizard Robe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x15</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>6</Tier> <Uncommon/>
+      <Description>An enchanted robe you say, well yes its previous owner was a wizard, try it on for a change.</Description>
+      <ActivateOnEquip stat="3" amount="45">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="21" amount="8">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>2</BagType>
+      <FameBonus>2</FameBonus>	  	  
+   </Object>
+   <Object type="0xa5f" id="Enchanted Sky Cape">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x16</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>7</Tier> <Rare/>
+      <Description>The cape will bless upon you from the heavens.</Description>
+      <ActivateOnEquip stat="3" amount="50">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="21" amount="9">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="4">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>	  	  	  
+   </Object>
+   <Object type="0xadc" id="Magical Earth Cape">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x17</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>8</Tier> <Rare/>
+      <Description>This cape has mother natures will, her magic stored inside is powerful.</Description>
+      <ActivateOnEquip stat="3" amount="55">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="20" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="5">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+   </Object>
+   <Object type="0xa60" id="Cape of the Endless Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x18</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>9</Tier> <Epic/>
+      <Description>A cape of the void, negative effusions of effects, may there be light.</Description>
+      <ActivateOnEquip stat="3" amount="65">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="20" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="11">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="6">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+</Objects>

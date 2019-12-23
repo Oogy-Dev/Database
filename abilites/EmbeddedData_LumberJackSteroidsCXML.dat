@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+<Object type="0x5733" id="Steroid Syringe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xe0</Index>
+      </Texture>
+      <SlotType>31</SlotType>
+      <Tier>0</Tier> <Common/>
+      <Description>A syringe for lumberjacks who need them power to lift them trees.</Description>
+      <ActivateOnEquip stat="20" amount="3">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>80</MpCost>
+      <Activate effect="Berserk" duration="3">ConditionEffectSelf</Activate>
+      <Activate effect="Damaging" duration="3">ConditionEffectSelf</Activate>
+      <Cooldown>5</Cooldown>
+   </Object>
+   <Object type="0x5734" id="Anadrol Syringe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xe1</Index>
+      </Texture>
+      <SlotType>31</SlotType>
+      <Tier>1</Tier> <Common/>
+      <Description>A greater steroid used for combat, lumberjacks can easily take out mobs nearby.</Description>
+      <ActivateOnEquip stat="20" amount="4">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>	  
+      <MpCost>110</MpCost>
+      <Activate effect="Berserk" duration="4">ConditionEffectSelf</Activate>
+      <Activate effect="Damaging" duration="4">ConditionEffectSelf</Activate>
+      <Cooldown>6</Cooldown>
+   </Object>
+   <Object type="0x5735" id="Dianabol Syringe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xe2</Index>
+      </Texture>
+      <SlotType>31</SlotType>
+      <Tier>2</Tier> <Uncommon/>
+      <Description>A steroid that will make the owner capable of breaking a stone with one hand.</Description>
+      <ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>2</BagType>
+      <FameBonus>3</FameBonus>	  
+      <MpCost>135</MpCost>
+      <Activate effect="Berserk" duration="4.5">ConditionEffectSelf</Activate>
+      <Activate effect="Damaging" duration="4.5">ConditionEffectSelf</Activate>
+      <Cooldown>6.5</Cooldown>
+   </Object>
+   <Object type="0x5736" id="Enchanted Sky Syringe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xe3</Index>
+      </Texture>
+      <SlotType>31</SlotType>
+      <Tier>3</Tier> <Rare/>
+      <Description>Who knew the gods used steroids to strengthen them selves.</Description>
+      <ActivateOnEquip stat="20" amount="6">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>155</MpCost>
+      <Activate effect="Berserk" duration="5">ConditionEffectSelf</Activate>
+      <Activate effect="Damaging" duration="5">ConditionEffectSelf</Activate>
+      <Cooldown>7</Cooldown>
+   </Object>
+   <Object type="0x5737" id="Magical Earth Syringe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xe4</Index>
+      </Texture>
+      <SlotType>31</SlotType>
+      <Tier>4</Tier> <Rare/>
+      <Description>Must use this carefully, if this goes out of hand who knows what will happen to your body, you might explode.</Description>
+      <ActivateOnEquip stat="20" amount="8">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>3</FameBonus>
+      <MpCost>160</MpCost>
+      <Activate effect="Berserk" duration="6">ConditionEffectSelf</Activate>
+      <Activate effect="Damaging" duration="6">ConditionEffectSelf</Activate>
+      <Cooldown>8</Cooldown>
+   </Object>
+   <Object type="0x5738" id="Syringe of the Void">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xe5</Index>
+      </Texture>
+      <SlotType>31</SlotType>
+      <Tier>5</Tier> <Epic/>
+      <Description>A steroid that will kill the owner, if injected through your vital spots.</Description>
+      <ActivateOnEquip stat="20" amount="10">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>170</MpCost>
+      <Activate effect="Berserk" duration="7">ConditionEffectSelf</Activate>
+      <Activate effect="Damaging" duration="7">ConditionEffectSelf</Activate>
+      <Cooldown>9</Cooldown>
+   </Object>
+</Objects>

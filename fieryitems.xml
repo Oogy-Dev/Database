@@ -1,0 +1,643 @@
+﻿<Objects>
+<Object type="0x8352" id="Blazing Fiery Wand" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x49</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+    <ExtraTooltipData>	  	 
+       <EffectInfo name="Item Effect" description="4% for a chance to bleed the enemy for 4 second."/>
+    </ExtraTooltipData>	  	 	   	  	  
+      <RateOfFire>1.1</RateOfFire>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Big Fireball</ObjectId>
+         <Speed>135</Speed>
+         <LifetimeMS>525</LifetimeMS>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>40</MaxDamage>
+         <MultiHit/>
+         <ArmorPiercing/>		 
+    <CondChance effect="Bleeding" chance="2" duration="4"/>	 		 			 
+      </Projectile>
+      <NumProjectiles>4</NumProjectiles>
+      <ArcGap>7</ArcGap>	  
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   
+   <Object type="0x8353" id="Blazing Fiery Bow" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x59</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+    <ExtraTooltipData>	  	 
+       <EffectInfo name="Item Effect" description="4% for a chance to bleed the enemy for 4 second."/>
+    </ExtraTooltipData>	  	 	   	  	  
+      <RateOfFire>1.1</RateOfFire>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Big Fireball</ObjectId>
+         <Speed>125</Speed>
+         <MinDamage>50</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <LifetimeMS>520</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>		 
+    <CondChance effect="Bleeding" chance="2" duration="4"/>	 		 			 		 
+      </Projectile>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>4</ArcGap>
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   
+      <Object type="0x8354" id="Blazing Fiery Machete" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x89</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+    <ExtraTooltipData>	  	 
+       <EffectInfo name="Item Effect" description="4% for a chance to bleed the enemy for 4 second."/>
+    </ExtraTooltipData>	  	 	   	  	  
+      <RateOfFire>1.1</RateOfFire>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Fire Bolt</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>70</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <Amplitude>0.4</Amplitude>
+         <Frequency>0.8</Frequency>
+         <FaceDir/>		
+         <MultiHit/> 	
+         <ArmorPiercing/>		 
+    <CondChance effect="Bleeding" chance="2" duration="4"/>	 		 			 		 
+      </Projectile>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   
+      <Object type="0x8355" id="Blazing Fiery Staff" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x79</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+    <ExtraTooltipData>	  	 
+       <EffectInfo name="Item Effect" description="4% for a chance to bleed the enemy for 4 second."/>
+    </ExtraTooltipData>	  	 	   	  	  
+      <RateOfFire>1.1</RateOfFire>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Big Fireball</ObjectId>
+         <Speed>135</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>20</MaxDamage>
+         <LifetimeMS>600</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>1</Frequency>
+         <FaceDir/>
+         <ArmorPiercing/>		 
+    <CondChance effect="Bleeding" chance="2" duration="4"/>	 		 			 		 
+      </Projectile>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <NumProjectiles>4</NumProjectiles>
+      <ArcGap>3</ArcGap>
+      <OldSound>magicShoot</OldSound>
+   </Object>
+   
+      <Object type="0x8356" id="Blazing Fiery Dagger" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x69</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+    <ExtraTooltipData>	  	 
+       <EffectInfo name="Item Effect" description="4% for a chance to bleed the enemy for 4 second."/>
+    </ExtraTooltipData>	  	 	   	    
+      <RateOfFire>1.1</RateOfFire>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Big Fireball</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>60</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+         <ArmorPiercing/>		 
+    <CondChance effect="Bleeding" chance="2" duration="4"/>	 		 			 		 
+      </Projectile>
+      <BagType>6</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>2</ArcGap>	  
+      <FameBonus>4</FameBonus>
+      <OldSound>daggerSwing</OldSound>
+   </Object>       
+   
+      <Object type="0x8357" id="Blazing Fiery Blade" fiery="true">>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x39</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+    <ExtraTooltipData>	  	 
+       <EffectInfo name="Item Effect" description="4% for a chance to bleed the enemy for 4 second."/>
+    </ExtraTooltipData>	  	 	   	  	  
+      <RateOfFire>1.1</RateOfFire>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Fire Bolt</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>80</MinDamage>
+         <MaxDamage>170</MaxDamage>
+         <LifetimeMS>600</LifetimeMS>
+         <ArmorPiercing/>		 
+    <CondChance effect="Bleeding" chance="2" duration="4"/>	 		 			 		 
+      </Projectile>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+	</Object>
+
+   <Object type="0x8358" id="Blazing Fiery Battle-Axe" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x99</Index>
+      </Texture>
+      <SlotType>30</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+    <ExtraTooltipData>	  	 
+       <EffectInfo name="Item Effect" description="4% for a chance to bleed the enemy for 4 second."/>
+    </ExtraTooltipData>	  	 	   	  
+      <RateOfFire>1.1</RateOfFire>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Fire Bolt</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>75</MinDamage>
+         <MaxDamage>145</MaxDamage>
+         <LifetimeMS>600</LifetimeMS>
+         <Amplitude>0.35</Amplitude>
+         <Frequency>0.5</Frequency>
+         <ArmorPiercing/>		 
+    <CondChance effect="Bleeding" chance="2" duration="4"/>	 		 			 		 
+      </Projectile>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+	</Object>
+	
+	
+	
+	
+	
+	
+	<Object type="0x8359" id="Blazing Fiery Syringe" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xe6</Index>
+      </Texture>
+      <SlotType>31</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <ActivateOnEquip stat="20" amount="12">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>190</MpCost>
+      <Activate effect="Berserk" duration="9">ConditionEffectSelf</Activate>
+      <Activate effect="Damaging" duration="9">ConditionEffectSelf</Activate>
+      <Cooldown>11</Cooldown>
+   </Object>
+   
+   <Object type="0x8360" id="Blazing Fiery Shield" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x76</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Flame Breath</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>500</MinDamage>
+         <MaxDamage>700</MaxDamage>
+         <LifetimeMS>255</LifetimeMS>
+         <Size>140</Size>
+         <ConditionEffect duration="4">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="4">Stunned</ConditionEffect>
+      <Cooldown>4</Cooldown>	  
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>120</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>4</NumProjectiles>
+   </Object>
+
+   <Object type="0x8361" id="Blazing Fiery Vile" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x86</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>130</MpCost>
+      <Activate radius="7" totalDamage="1050" duration="9.5" useWisMod="true"> PoisonGrenade</Activate>
+   </Object>
+
+   <Object type="0x8362" id="Blazing Fiery Cloak" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x26</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <ActivateOnEquip stat="22" amount="7">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="6">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>105</MpCost>
+      <Activate effect="Invisible" duration="7.5">ConditionEffectSelf</Activate>
+      <Cooldown>8.5</Cooldown>
+   </Object>
+   
+   <Object type="0x8363" id="Blazing Fiery Trap" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x16</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>155</MpCost>
+      <Activate radius="8.5" totalDamage="1000" condDuration="8.5">Trap</Activate>
+   </Object>
+
+   <Object type="0x8364" id="Blazing Fiery Skull" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x06</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Usable/>
+      <BagType>6</BagType>
+	  <FameBonus>4</FameBonus>  	  
+      <MpCost>160</MpCost>
+      <Activate radius="5.75" totalDamage="550">VampireBlast</Activate>
+   </Object>
+
+   <Object type="0x8365" id="Blazing Fiery Scepter" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xc6</Index>
+      </Texture>
+      <SlotType>23</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>105</MpCost>
+      <Activate totalDamage="545" maxTargets="10">Lightning</Activate>
+   </Object>
+
+   <Object type="0x8367" id="Blazing Fiery Prism" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xb6</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>105</MpCost>
+      <Activate duration="7.5">Decoy</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+   </Object>
+
+   <Object type="0x8368" id="Blazing Fiery Shuriken" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xd6</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="While Key Held" description=""/>
+         <EffectInfo name="" description="Speedy on self"/>
+         <EffectInfo name="" description="Drain 10 MP/sec"/>
+         <EffectInfo name="When Key Released" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Ninja Star Doom</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>610</MinDamage>
+         <MaxDamage>645</MaxDamage>
+         <LifetimeMS>1200</LifetimeMS>
+         <Size>70</Size>
+         <PassesCover/>
+      </Projectile>
+      <Usable/>
+      <BagType>6</BagType>
+      <NumProjectiles>3</NumProjectiles>
+      <ArcGap>7</ArcGap>	  
+      <FameBonus>4</FameBonus>
+      <MpCost>0</MpCost>
+      <MpEndCost>105</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+   </Object>
+   
+   <Object type="0x8369" id="Blazing Fiery Tome" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x56</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>100</MpCost>
+      <Activate effect="Healing" duration="7" range="7" useWisMod="true">ConditionEffectAura</Activate>
+      <Activate range="7" amount="500" useWisMod="true">HealNova</Activate>
+   </Object>
+
+   <Object type="0x8370" id="Blazing Fiery Seal" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xa6</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>105</MpCost>
+      <Activate stat="0" amount="55" duration="6" range="6.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
+      <Activate effect="Healing" duration="6" range="6.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="6" range="6.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+   </Object>
+  
+   <Object type="0x8371" id="Blazing Fiery Orb" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x96</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>100</MpCost>
+      <Activate effect="Berserk" duration="3.5" useWisMod="true">ConditionEffectSelf</Activate>
+      <Activate effect="Curse" duration="8.5" range="7" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
+      <Activate duration="7.5">StasisBlast</Activate>
+   </Object>
+
+   <Object type="0x8372" id="Blazing Fiery Helmet" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x66</Index>
+      </Texture>
+      <SlotType>16</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <ActivateOnEquip stat="21" amount="12">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>105</MpCost>
+      <Activate effect="Berserk" duration="8" range="6">ConditionEffectAura</Activate>
+      <Activate effect="Speedy" duration="8">ConditionEffectSelf</Activate>
+      <Cooldown>9</Cooldown>
+   </Object>
+   
+   <Object type="0x8373" id="Blazing Fiery Scroll" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x46</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Big Fireball</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>100</MinDamage>
+         <MaxDamage>165</MaxDamage>
+         <LifetimeMS>1200</LifetimeMS>
+      </Projectile>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>100</MpCost>
+      <Activate>BulletNova</Activate>
+   </Object>
+   
+   <Object type="0x8374" id="Blazing Fiery Quiver" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x36</Index>
+      </Texture>
+      <SlotType>15</SlotType>
+      <Description>This weapon has been severed from the ones who created it.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Big Fireball</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>490</MinDamage>
+         <MaxDamage>550</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>150</Size>
+         <ConditionEffect duration="5">Paralyzed</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="28" amount="7">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="5">Paralyzed</ConditionEffect>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>95</MpCost>
+      <Activate>Shoot</Activate>
+   </Object>
+   
+   
+   
+   
+   
+   
+   
+   
+      <Object type="0x8375" id="Blazing Fiery Cape" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x19</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Description>This defense has been severed from the ones who created it.</Description>
+      <ActivateOnEquip stat="3" amount="105">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="20" amount="7">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="15">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="10">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>
+   
+      <Object type="0x8376" id="Blazing Fiery Plated-Armor" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x29</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Description>This defense has been severed from the ones who created it.</Description>
+      <ActivateOnEquip stat="21" amount="29">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="7">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="20" amount="7">IncrementStat</ActivateOnEquip>	  
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>	  
+   </Object>
+   
+      <Object type="0x8377" id="Blazing Fiery Light Armor" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x09</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Description>This defense has been severed from the ones who created it.</Description>
+      <ActivateOnEquip stat="21" amount="20">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="9">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="7">IncrementStat</ActivateOnEquip>	  	  	  
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+   </Object>   
+   
+   
+   
+   
+
+
+
+      <Object type="0x8378" id="Blazing Fiery Ring" fiery="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>separate\Fiery\fieryring</Id>
+      </RemoteTexture>
+      <SlotType>9</SlotType>
+      <Description>This ring has been severed from the ones who created it.</Description>
+      <ActivateOnEquip stat="0" amount="80">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="80">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="20" amount="8">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="21" amount="8">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="22" amount="8">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="26" amount="8">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="27" amount="8">IncrementStat</ActivateOnEquip>	  
+      <ActivateOnEquip stat="28" amount="8">IncrementStat</ActivateOnEquip>	  
+      <BagType>6</BagType>	  
+      <FameBonus>4</FameBonus>
+   </Object>
+         </Objects>
+<!--
+Invisible Texture      
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+BagType 0 = Brown Bag
+BagType 1 = Pink Bag
+BagType 2 = Purple Bag
+BagType 3 = Egg Basket
+BagType 4 = Cyan Bag
+BagType 5 = Blue Bag
+BagType 6 = White Bag
+BagType 7 = Big White Bag
+BagType 8 = Unholy Bag
+BagType 9 = Big Unholy Bag
+BagType 10 = Orange Bag
+BagType 11 = Red Bag
+BagType 12 = Gold Bag
+-->
